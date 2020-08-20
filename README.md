@@ -23,7 +23,7 @@ ___
 
 O objetivo deste módulo Terraform é apresentar os recursos de rede da AWS e como trabalhar com um ambiente otimizado para receber o `EKS` no futuro.
 
-O código-fonte está localizado em: [./modules/generic-network](./modules/generic-network)
+O código-fonte está localizado em: [./env/lab/generic-network](./env/lab/generic-network)
 
 ![Generic Network](./docs/eks-diagram-Network.png)
 
@@ -42,7 +42,7 @@ Com a rede criada, agora é possível criar o cluster `EKS`.
 
 O objetivo deste módulo Terraform é criar os recursos de rede da AWS e apresentar os principais componentes do `EKS` e como eles se relacionam.
 
-O código-fonte que inclui tanto o `EKS`, quanto a rede, está localizado em: [./modules/generic-network](./modules/eks)
+O código-fonte que inclui tanto o `EKS`, quanto a rede, está localizado em: [./env/lab/generic-network](./env/lab/eks)
 cluster `EKS` ser provisionado.
 
 ![EKS](./docs/eks-diagram-EKS.png)
